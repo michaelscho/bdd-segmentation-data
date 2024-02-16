@@ -25,7 +25,7 @@ consisting of seven region types:
 * footer
 * other
 
-![Example](https://github.com/michaelscho/bdd-segmentation-data/edit/main/example_annotation.png?raw=true)
+![Example](https://github.com/michaelscho/bdd-segmentation-data/blob/431e1b0c2a251fc66196e9f55e9cc36d3f1c7112/example_annotation.png)
 
 As only these values are used, dataset can be adapted to other usecases by regex. Be aware, as
 this dataset has been created with a very specific codicological context in mind, other usecases
