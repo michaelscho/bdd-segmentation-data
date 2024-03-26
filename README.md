@@ -1,6 +1,7 @@
 # bdd-segmentation-data
 This dataset comprises PageXML for training segmentation models in Transkribus and Kraken. It is designed to capture the specific layout of medieval canon law collections. Compiled from several 11th-century manuscripts of the Decretum Burchardi, it supports the ongoing edition project Burchards Dekret Digital. Annotations are tailored to project-specific needs but can be adapted for other use cases. The data was first prepared using Transkribus (in the transkribus folder) and then remasked in eScriptorium for usage in Kraken (in the kraken folder). The PageXML of each manuscript is organized in its own folder, following a sigil system explained below. Due to copyright reasons, each folder contains a URL mapping as a JSON file, providing links to images of each page as provided by a library. These files must be downloaded before use. For most manuscripts, the specified URL already points to the resolution used for PageXML creation via the IIIF URL. However, Manuscript E must be resized to the resolution given in the corresponding PageXML files.
-Scope
+
+[![DOI](https://zenodo.org/badge/758361114.svg)](https://zenodo.org/doi/10.5281/zenodo.10882816)
 
 ## Scope
 
