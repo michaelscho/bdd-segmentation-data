@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Burchards Dekret Digital</Creator>
+    <Created>2023-03-20T21:12:11</Created>
+    <LastChange>2024-02-19T11:05:54.737+01:00</LastChange>
+    <Comments>PageXML annotated and curated by Michael Schonhardt (Universität Kassel, https://orcid.org/0000-0002-2750-1900). Annotation was assisted by Leo Felder (Universität Kassel, https://orcid.org/0009-0008-7230-4229), Torben Jordan (Universität Kassel, https://orcid.org/0009-0002-2143-0520) and Christopher Oed (Universität Erlangen-Nürnberg, https://orcid.org/0009-0001-3910-1832).</Comments>
+  </Metadata>
+  <Page imageFilename="V_0530.jpg" imageWidth="1731" imageHeight="2304">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1711373717886" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="TextRegion_1683903063092_1393"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="TextRegion_1683903063092_1393" custom="readingOrder {index:0;} structure {type:column_1;}">
+      <Coords points="382,268 965,268 965,517 382,517"/>
+      <TextLine id="TextRegion_1683903063092_1393_tl_1" custom="readingOrder {index:0;}">
+        <Coords points="443,369 533,357 548,369 579,351 619,367 650,358 681,382 763,352 892,360 891,290 841,307 743,298 712,320 597,293 583,306 533,290 442,300"/>
+        <Baseline points="448,348 478,348 508,346 538,346 568,346 598,346 628,346 658,346 688,348 718,348 748,348 778,348 808,348 838,348 868,350 894,354"/>
+        <TextEquiv>
+          <Unicode/>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="TextRegion_1683903063092_1393_tl_2" custom="readingOrder {index:1;}">
+        <Coords points="443,451 551,455 695,421 798,454 928,419 929,379 680,382 614,364 523,386 444,369"/>
+        <Baseline points="448,416 478,418 508,418 538,418 568,418 598,416 628,416 658,416 688,418 718,418 748,418 778,416 808,416 838,414 868,414 898,412 928,416 930,416"/>
+        <TextEquiv>
+          <Unicode/>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="TextRegion_1683903063092_1393_tl_3" custom="readingOrder {index:2;}">
+        <Coords points="439,493 809,487 864,526 898,523 898,429 785,455 706,456 680,436 636,457 439,449"/>
+        <Baseline points="444,484 450,484 480,484 510,486 540,486 570,486 600,486 630,486 660,486 690,486 720,488 750,486 780,484 810,484 840,482 870,482 900,482"/>
+        <TextEquiv>
+          <Unicode/>
+        </TextEquiv>
+      </TextLine>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

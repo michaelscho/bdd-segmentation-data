@@ -1,21 +1,10 @@
 # bdd-segmentation-data
-This dataset comprises of PageXML for training segmentation models in Kraken that can be used 
-to capture the specific layout of medieval canon law collections. Therefore, it has been compiled 
-from several 11th century manuscript of the Decretum Burchardi as part of an ongoing edition 
-project (Burchards Dekret Digital). Annotations follow project specific needs, but can be adapted
-to other usecases. Data was first prepared using Transkribus, and then remasked in escriptorium
-for usage in kraken. PageXML of each manuscript has its own folder using a sigla sytsem that is
-explained below. For copyright reasons, each folder contains an url mapping as JSON file, 
-containing the link to images of each page a sprovided by a library. 
-Before usage, these files must be downloaded. For most manuscripts, the url specified already points 
-to the resolution used for PageXML creation via iiif url. Manuscript E, however, must be resized 
-to the resolution given in the corresponding PageXML files.
+This dataset comprises PageXML for training segmentation models in Transkribus and Kraken. It is designed to capture the specific layout of medieval canon law collections. Compiled from several 11th-century manuscripts of the Decretum Burchardi, it supports the ongoing edition project Burchards Dekret Digital. Annotations are tailored to project-specific needs but can be adapted for other use cases. The data was first prepared using Transkribus (in the transkribus folder) and then remasked in eScriptorium for usage in Kraken (in the kraken folder). The PageXML of each manuscript is organized in its own folder, following a sigil system explained below. Due to copyright reasons, each folder contains a URL mapping as a JSON file, providing links to images of each page as provided by a library. These files must be downloaded before use. For most manuscripts, the specified URL already points to the resolution used for PageXML creation via the IIIF URL. However, Manuscript E must be resized to the resolution given in the corresponding PageXML files.
+Scope
 
 ## Scope
-As collections of medieval canon law often follow a specific layout meant to facilitate legal 
-practices, the dataset (and models derived from it) tries to capture the function of layout 
-elements in this narrow context. Thus, annotation is based on a context specific vobabulary
-consisting of seven region types:
+
+As collections of medieval canon law often follow a specific layout meant to facilitate legal practices, this dataset (and the models derived from it) aims to capture the function of layout elements within this narrow context. Annotations are based on a context-specific vocabulary consisting of seven region types:
 
 * column_1
 * column_2
@@ -27,9 +16,7 @@ consisting of seven region types:
 
 ![Example](https://github.com/michaelscho/bdd-segmentation-data/blob/431e1b0c2a251fc66196e9f55e9cc36d3f1c7112/example_annotation.png)
 
-As only these values are used, dataset can be adapted to other usecases by regex. Be aware, as
-this dataset has been created with a very specific codicological context in mind, other usecases
-will most certainly require additonal data.
+As these values are exclusively used, the dataset can be adapted to other use cases through regex. However, given that this dataset was created with a very specific codicological context in mind, additional data will likely be required for other applications.
 
 ## Data
 Seven manuscripts are annotated with text regions and baslines:
@@ -44,3 +31,12 @@ Seven manuscripts are annotated with text regions and baslines:
 
 For each manuscripts, imagelinks are listed in json format in each manuscripts folder that can be used for batch downloading.
 For E, which is not yet iiif complinat, images must be resized to match resolution indicated in PageXML.
+
+## Contributions
+Data was prepared as part of the project [Buchards Dekret Digital](https://www.adwmainz.de/projekte/burchards-dekret-digital/informationen.html),
+funded by the [Academy of Sciences and Literature Mainz](https://www.adwmainz.de/).
+This dataset was conceptualized, curated, and annotated by 
+Michael Schonhardt (Universität Kassel, https://orcid.org/0000-0002-2750-1900). 
+Annotation was assisted by Leo Felder (Universität Kassel, https://orcid.org/0009-0008-7230-4229), 
+Torben Jordan (Universität Kassel, https://orcid.org/0009-0002-2143-0520) and 
+Christopher Oed (Universität Erlangen-Nürnberg, https://orcid.org/0009-0001-3910-1832).

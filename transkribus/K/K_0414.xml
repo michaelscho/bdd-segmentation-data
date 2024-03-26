@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Burchards Dekret Digital</Creator>
+    <Created>2022-12-12T13:49:58</Created>
+    <LastChange>2024-02-19T12:23:25.044+01:00</LastChange>
+    <Comments>PageXML annotated and curated by Michael Schonhardt (Universität Kassel, https://orcid.org/0000-0002-2750-1900). Annotation was assisted by Leo Felder (Universität Kassel, https://orcid.org/0009-0008-7230-4229), Torben Jordan (Universität Kassel, https://orcid.org/0009-0002-2143-0520) and Christopher Oed (Universität Erlangen-Nürnberg, https://orcid.org/0009-0001-3910-1832).</Comments>
+  </Metadata>
+  <Page imageFilename="K_0414.jpg" imageWidth="3480" imageHeight="4491">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1711372971655" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="TextRegion_1673508625565_133"/>
+        <RegionRefIndexed index="1" regionRef="rW0m9_5"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="TextRegion_1673508625565_133" custom="readingOrder {index:0;} structure {type:column_1;}">
+      <Coords points="1010,381 1227,359 2197,456 2111,1613 2016,1653 2107,2920 1989,3341 1771,3495 1835,3648 1504,3684 1536,3521 1717,3477 1332,3258 1277,3105 1078,3087 1019,2276 1164,2197 1010,2192"/>
+      <TextLine id="line_1673508614380_121" custom="readingOrder {index:0;}">
+        <Coords points="1202,456 2123,468 2122,518 1201,506"/>
+        <Baseline points="1201,501 2122,513"/>
+        <TextEquiv>
+          <Unicode/>
+        </TextEquiv>
+      </TextLine>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="rW0m9_5" custom="readingOrder {index:1;} structure {type:column_2;}">
+      <Coords points="2265,451 2147,640 2111,1640 2020,1653 2111,2920 2011,3236 2175,3644 2677,3771 3140,3657 3267,3359 3239,2820 3103,2442 3280,556 2927,438"/>
+      <TextLine id="line_1673508619595_127" custom="readingOrder {index:0;}">
+        <Coords points="2266,483 3211,569 3207,619 2262,533"/>
+        <Baseline points="2262,528 3207,614"/>
+        <TextEquiv>
+          <Unicode/>
+        </TextEquiv>
+      </TextLine>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

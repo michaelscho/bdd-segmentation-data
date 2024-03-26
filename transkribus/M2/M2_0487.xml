@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Burchards Dekret Digital</Creator>
+    <Created>2024-02-16T07:40:00.921451Z</Created>
+    <LastChange>2024-03-18T20:57:39.289+01:00</LastChange>
+    <Comments>PageXML annotated and curated by Michael Schonhardt (Universität Kassel, https://orcid.org/0000-0002-2750-1900). Annotation was assisted by Leo Felder (Universität Kassel, https://orcid.org/0009-0008-7230-4229), Torben Jordan (Universität Kassel, https://orcid.org/0009-0002-2143-0520) and Christopher Oed (Universität Erlangen-Nürnberg, https://orcid.org/0009-0001-3910-1832).</Comments>
+  </Metadata>
+  <Page imageFilename="M2_0487.jpg" imageWidth="3192" imageHeight="4437">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1711372355063" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="eSc_textblock_25404b4b"/>
+        <RegionRefIndexed index="1" regionRef="eSc_textblock_9b2d9ecd"/>
+        <RegionRefIndexed index="2" regionRef="eSc_textblock_16536dfe"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="eSc_textblock_25404b4b" custom="readingOrder {index:0;} structure {type:column_1;}">
+      <Coords points="747,226 1105,285 1662,285 1751,325 1790,421 1711,1042 1662,1082 700,1062 651,1003 670,335 747,226"/>
+    </TextRegion>
+    <TextRegion id="eSc_textblock_9b2d9ecd" custom="readingOrder {index:1;} structure {type:column_1;}">
+      <Coords points="1063,3076 1309,3086 1633,3253 1692,3441 1672,3626 720,3635 670,3460 730,3194 799,3135 1063,3076"/>
+    </TextRegion>
+    <TextRegion id="eSc_textblock_16536dfe" custom="readingOrder {index:2;} structure {type:column_2;}">
+      <Coords points="2035,276 3004,315 3043,571 3002,3692 1988,3712 1980,1299 1961,414 2035,276"/>
+    </TextRegion>
+  </Page>
+</PcGts>

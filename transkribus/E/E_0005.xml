@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Burchards Dekret Digital</Creator>
+    <Created>2023-07-26T17:56:51</Created>
+    <LastChange>2024-02-19T12:26:19.796+01:00</LastChange>
+    <Comments>PageXML annotated and curated by Michael Schonhardt (Universität Kassel, https://orcid.org/0000-0002-2750-1900). Annotation was assisted by Leo Felder (Universität Kassel, https://orcid.org/0009-0008-7230-4229), Torben Jordan (Universität Kassel, https://orcid.org/0009-0002-2143-0520) and Christopher Oed (Universität Erlangen-Nürnberg, https://orcid.org/0009-0001-3910-1832).</Comments>
+  </Metadata>
+  <Page imageFilename="E_0005.jpg" imageWidth="1937" imageHeight="2353">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1711372761362" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1708341976004_3650"/>
+        <RegionRefIndexed index="1" regionRef="rmsac_3"/>
+        <RegionRefIndexed index="2" regionRef="rTDCs_4"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion type="other" id="region_1708341976004_3650" custom="readingOrder {index:0;} structure {type:other;}">
+      <Coords points="40,70 1855,70 1855,2305 40,2305"/>
+    </TextRegion>
+    <TextRegion id="rmsac_3" custom="readingOrder {index:1;} structure {type:footer;}">
+      <Coords points="1001,2240 1001,2242 998,2245 996,2245 996,2247 998,2245 1006,2249 1001,2254 996,2254 996,2267 993,2270 991,2270 993,2270 1001,2274 1006,2274 1008,2277 1006,2279 1008,2279 1008,2277 1011,2274 1016,2274 1021,2270 1023,2270 1021,2270 1018,2267 1018,2265 1021,2263 1023,2263 1021,2263 1018,2261 1018,2258 1016,2258 1013,2256 1016,2254 1018,2254 1011,2254 1008,2251 1008,2247 1011,2245 1013,2245 1011,2245 1008,2242 1008,2240"/>
+    </TextRegion>
+    <TextRegion id="rTDCs_4" custom="readingOrder {index:2;} structure {type:header;}">
+      <Coords points="1538,110 1558,110 1561,114 1566,117 1561,119 1563,119 1566,124 1571,126 1568,128 1576,128 1571,126 1573,124 1586,124 1581,124 1578,121 1581,119 1578,117 1581,114 1588,114 1583,112 1586,110 1593,110 1591,110 1588,105 1583,105 1581,103 1568,103 1566,101 1561,103 1551,98 1546,101 1553,101 1556,103 1553,105 1541,105 1553,105 1556,107 1553,110"/>
+    </TextRegion>
+  </Page>
+</PcGts>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Burchards Dekret Digital</Creator>
+    <Created>2023-02-17T10:25:37</Created>
+    <LastChange>2024-02-19T10:55:37.756+01:00</LastChange>
+    <Comments>PageXML annotated and curated by Michael Schonhardt (Universität Kassel, https://orcid.org/0000-0002-2750-1900). Annotation was assisted by Leo Felder (Universität Kassel, https://orcid.org/0009-0008-7230-4229), Torben Jordan (Universität Kassel, https://orcid.org/0009-0002-2143-0520) and Christopher Oed (Universität Erlangen-Nürnberg, https://orcid.org/0009-0001-3910-1832).</Comments>
+  </Metadata>
+  <Page imageFilename="B_0568.jpg" imageWidth="1500" imageHeight="1846">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1711373426431" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1708336533620_1902"/>
+        <RegionRefIndexed index="1" regionRef="TextRegion_1680254635481_1207"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion type="other" id="region_1708336533620_1902" custom="readingOrder {index:0;} structure {type:other;}">
+      <Coords points="161,134 1310,134 1310,1632 161,1632"/>
+    </TextRegion>
+    <TextRegion id="TextRegion_1680254635481_1207" custom="readingOrder {index:1;} structure {type:footer;}">
+      <Coords points="752,1696 764,1696 831,1674 841,1709 847,1723 852,1740 840,1745 827,1750 817,1748 809,1757 827,1750 829,1750 840,1745 841,1753 829,1750 806,1762 809,1757 794,1764 777,1753 766,1764 752,1766"/>
+      <TextLine id="line_1680254647970_1214" custom="readingOrder {index:0;}">
+        <Coords points="756,1743 767,1746 769,1743 780,1740 790,1746 792,1742 802,1737 806,1740 819,1729 825,1730 824,1711 806,1710 789,1699 775,1708 755,1705"/>
+        <Baseline points="761,1736 826,1739"/>
+        <Word id="line_1680254647970_1214_w1" custom="readingOrder {index:0;}">
+          <Coords points="751,1697 751,1757 823,1757 823,1697"/>
+          <TextEquiv>
+            <Unicode/>
+          </TextEquiv>
+        </Word>
+        <TextEquiv>
+          <Unicode/>
+        </TextEquiv>
+      </TextLine>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

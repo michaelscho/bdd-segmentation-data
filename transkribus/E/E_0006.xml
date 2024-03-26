@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Burchards Dekret Digital</Creator>
+    <Created>2023-07-26T17:53:22</Created>
+    <LastChange>2024-02-19T12:26:32.462+01:00</LastChange>
+    <Comments>PageXML annotated and curated by Michael Schonhardt (Universität Kassel, https://orcid.org/0000-0002-2750-1900). Annotation was assisted by Leo Felder (Universität Kassel, https://orcid.org/0009-0008-7230-4229), Torben Jordan (Universität Kassel, https://orcid.org/0009-0002-2143-0520) and Christopher Oed (Universität Erlangen-Nürnberg, https://orcid.org/0009-0001-3910-1832).</Comments>
+  </Metadata>
+  <Page imageFilename="E_0006.jpg" imageWidth="1984" imageHeight="2426">
+    <ReadingOrder>
+      <OrderedGroup id="ro_1711372761363" caption="Regions reading order">
+        <RegionRefIndexed index="0" regionRef="region_1708341988420_3672"/>
+        <RegionRefIndexed index="1" regionRef="r4rQq_1"/>
+        <RegionRefIndexed index="2" regionRef="rWfaM_2"/>
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion type="other" id="region_1708341988420_3672" custom="readingOrder {index:0;} structure {type:other;}">
+      <Coords points="53,80 1942,80 1942,2374 53,2374"/>
+    </TextRegion>
+    <TextRegion id="r4rQq_1" custom="readingOrder {index:1;} structure {type:chapter_count;}">
+      <Coords points="80,1949 80,1975 82,1975 82,1973 85,1971 87,1973 87,1978 90,1980 90,1978 93,1975 95,1975 98,1978 98,1980 100,1980 103,1978 103,1975 108,1971 108,1959 105,1956 105,1954 100,1954 98,1952 98,1949 87,1949 87,1964 85,1966 82,1964 82,1954 80,1952 82,1949"/>
+    </TextRegion>
+    <TextRegion id="rWfaM_2" custom="readingOrder {index:2;} structure {type:chapter_count;}">
+      <Coords points="142,1798 142,1800 139,1802 136,1802 136,1805 134,1807 131,1807 131,1824 134,1821 136,1824 136,1836 142,1840 142,1847 147,1847 147,1840 149,1838 152,1838 152,1826 155,1824 157,1826 157,1828 157,1821 160,1819 162,1819 162,1817 155,1817 152,1814 152,1812 149,1810 147,1802 144,1802 142,1800"/>
+    </TextRegion>
+  </Page>
+</PcGts>
